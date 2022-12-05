@@ -1,2 +1,61 @@
-﻿body {
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "微軟正黑體";
+    position: relative;
+    font-size: 18px;
+    line-height: 1.8;
 }
+
+.bgimg01 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg01 {
+    background-image: url(images/IMG_0521-umai.jpg);
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.caption {
+    left: 0;
+    top: 45%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+    .caption span.box {
+        background-color: #ffffff;
+        padding: 20px;
+        color: #111111;
+        font-size: 25px;
+        letter-spacing: 10px;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+
+.text01 {
+    #eae3e3;
+    text-align: justify;
+    padding: 100px 10%;
+    opacity: 0.8;
+}
+
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #200040;
+}
+

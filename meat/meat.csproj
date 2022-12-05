@@ -68,8 +68,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="images\0317-2-850x838.jpg" />
+    <Content Include="images\1-4.jpg" />
+    <Content Include="images\1-638x851.jpg" />
+    <Content Include="images\1500555199-b530bff625f3f91b00705c7e21ec48ec.jpg" />
+    <Content Include="images\1537697998-4285244905.jpg" />
+    <Content Include="images\1555940722-625442670.jpg" />
+    <Content Include="images\1583546516-1542159171.jpg" />
+    <Content Include="images\1633346921-4277377633-g_l.jpg" />
+    <Content Include="images\182078336_279281873841217_6862915953739769086_n-850x849.jpg" />
+    <Content Include="images\183367256_115954657304186_395814174878076610_n-850x851.jpg" />
+    <Content Include="images\20180521230711_68.jpg" />
+    <Content Include="images\20200322005910_49.jpg" />
+    <Content Include="images\20200503215556_21.jpg" />
+    <Content Include="images\20200517181630_37.jpg" />
+    <Content Include="images\2353b8ee120b4190bb7aa7f7ccc13546.jpg" />
+    <Content Include="images\28277075627_8ecd80ce57_c.jpg" />
+    <Content Include="images\49156616266_8fd513eaec_c.jpg" />
+    <Content Include="images\50388264513_c4d18a446d_b.jpg" />
+    <Content Include="images\7494d9c4d82c38d3c5764ba6d03f7e31.jpg" />
+    <Content Include="images\9180F441-D9F7-4CF0-825A-0192D39B83BE.jpeg" />
+    <Content Include="images\DSCF4277.jpg" />
+    <Content Include="images\homehome-1-850x851.jpg" />
+    <Content Include="images\IMG_0521-umai.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo23.jpg" />
+    <Content Include="images\PhotoCap_001_213.jpg" />
     <Content Include="meat.aspx" />
+    <Content Include="meat2.aspx" />
     <Content Include="style.css" />
+    <Content Include="Style2.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +110,13 @@
     </Compile>
     <Compile Include="meat.aspx.designer.cs">
       <DependentUpon>meat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meat2.aspx.cs">
+      <DependentUpon>meat2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="meat2.aspx.designer.cs">
+      <DependentUpon>meat2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
