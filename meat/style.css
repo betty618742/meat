@@ -7,6 +7,49 @@
     line-height: 1.8;
 }
 
+
+.container {
+    width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+img {
+    float: left;
+    padding:1px 20px;
+}
+
+
+nav {
+    float: right;
+    padding: 10px 18px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px 15px;
+    float: left;
+}
+    nav li:hover {
+        background-color: #7A918D;
+        opacity: 0.5;
+    }
+
+nav a {
+    padding: 0 5px;
+}
+
+.content {
+    clear: both;
+}
+
+    
+
 .bgimg01 {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,7 +61,7 @@
 
 .bgimg01 {
     background-image: url(images/IMG_0521-umai.jpg);
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: block;
     margin: auto;
@@ -36,16 +79,16 @@
 
     .caption span.box {
         background-color: #ffffff;
-        padding: 20px;
+        padding: 15px;
         color: #111111;
-        font-size: 25px;
-        letter-spacing: 10px;
+        font-size: 20px;
+        letter-spacing: 8px;
         font-weight: bold;
         opacity: 0.8;
     }
 
 .text01 {
-    #eae3e3;
+    :eae3e3;
     text-align: justify;
     padding: 100px 10%;
     opacity: 0.8;

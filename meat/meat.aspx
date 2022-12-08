@@ -5,28 +5,55 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <link rel="icon" href="images/logo23.jpg" type="images/logo23.jpg"/>
+    <title>Umai屋馬燒肉</title>
+    <link rel="icon" href="images/333.jpg" type="images/333.jpg"/>
     <link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+  <div class="container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Octicons-octoface.svg/2000px-Octicons-octoface.svg.png" width="65"/>
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="#">首頁</a>
+        </li>
+        <li>
+          <a href="#">食材配送</a>
+        </li>
+        <li>
+          <a href="#">線上訂位</a>
+        </li>
+          <li>
+          <a href="#">最新消息</a>
+        </li>
+          <li>
+          <a href="#">屋馬菜單</a>
+        </li>
+          <li>
+          <a href="#">常見問題</a>
+        </li>
+          
+      </ul>
+    </nav>
+  </div>
+
+  
         <div>
             <div class="bgimg01">
               <div class="caption">
+         
                 <span class="box">屋馬燒肉</span>
+                 
               </div><!-- end of caption -->
             </div><!-- end of bgimg01 -->
             <div class="text01">
               <h3 class="h201">餐廳介紹</h3>
-              <p>屋馬燒肉堪稱台中屹立不搖人氣CP值最高燒肉店～兼顧大份量與美味品質，用餐時間永遠大排長龍，
-		        預約電話也是半小時才能打通，沒有提前半個月訂根本吃不到！（附完整菜單）
-		        早就聽聞台中屋馬燒肉的大名已久，每次搜尋台中必吃美食一定超多人都推薦屋馬燒肉，
-		        可惜之前經過好多次都沒機會品嘗，這次Livia特別提前了半個月去電訂位，
-		        預約電話打了好幾十通過了半小時才打通，訂了平日中午的位置，
-		        真不愧是台中第一名的超人氣屋馬燒肉，魅力真的是不容小覷～</p>
+              <p>屋馬燒肉以貼心服務、新鮮嚴選食材和創意心思為您打造一個美食饗宴。
+               希望您能享受快樂，吃得安心滿足，在這個充滿溫暖熱情的地方，感受台灣在地的熱情胸懷，
+               感受真實本土的台灣燒肉文化。</p>
             </div><!-- end of text01 -->
         </div>
-    </form>
+   
 </body>
 </html>
