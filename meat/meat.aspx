@@ -64,9 +64,9 @@
 </tr>
     
 <tr class="texttt">
-    <td align="center" >貼心服務，專屬幸福！ </td>
-    <td align="center">尊榮環境，視覺享受！ </td>
-    <td align="center">安心防疫，幸福團聚！ </td>
+    <td align="center" >貼心服務，專屬幸福 !</td>
+    <td align="center">尊榮環境，視覺享受!</td>
+    <td align="center">安心防疫，幸福團聚! </td>
     
 </tr>
 
