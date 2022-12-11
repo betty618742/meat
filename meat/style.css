@@ -153,8 +153,28 @@ h3 {
     width: 100%;
     display: block;
     margin: auto;
+
 }
-
-
-
+.rbbb {
+    background-image: url(images/1209.jpg);
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+label{
+    display: block;
+    font: lrem 'Fira Sans' ,sans-serif;
+}
+input,
+label{
+    margin: .10rem 0;
+}
+.raaa {
+    background-image: url(images/IMG_0521-umai.jpg);
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
 
