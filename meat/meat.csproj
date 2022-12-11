@@ -96,6 +96,8 @@
     <Content Include="images\PhotoCap_001_213.jpg" />
     <Content Include="meat.aspx" />
     <Content Include="meat2.aspx" />
+    <Content Include="meat3.aspx" />
+    <Content Include="meat4.aspx" />
     <Content Include="style.css" />
     <Content Include="Style2.css" />
     <Content Include="Web.config" />
@@ -117,6 +119,18 @@
     </Compile>
     <Compile Include="meat2.aspx.designer.cs">
       <DependentUpon>meat2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meat3.aspx.cs">
+      <DependentUpon>meat3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meat3.aspx.designer.cs">
+      <DependentUpon>meat3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meat4.aspx.cs">
+      <DependentUpon>meat4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meat4.aspx.designer.cs">
+      <DependentUpon>meat4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
