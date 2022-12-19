@@ -97,10 +97,12 @@
     <Content Include="meat.aspx" />
     <Content Include="meat2.aspx" />
     <Content Include="meat3.aspx" />
-    <Content Include="meat4.aspx" />
+    <Content Include="meat5.aspx" />
     <Content Include="style.css" />
     <Content Include="Style2.css" />
-    <Content Include="test.aspx" />
+    <None Include="betty.md" />
+    <None Include="ee.md" />
+    <None Include="melody.md" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -128,21 +130,14 @@
     <Compile Include="meat3.aspx.designer.cs">
       <DependentUpon>meat3.aspx</DependentUpon>
     </Compile>
-    <Compile Include="meat4.aspx.cs">
-      <DependentUpon>meat4.aspx</DependentUpon>
+    <Compile Include="meat5.aspx.cs">
+      <DependentUpon>meat5.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="meat4.aspx.designer.cs">
-      <DependentUpon>meat4.aspx</DependentUpon>
+    <Compile Include="meat5.aspx.designer.cs">
+      <DependentUpon>meat5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
