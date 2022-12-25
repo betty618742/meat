@@ -24,7 +24,8 @@ namespace meat
             
             string Date = Cdl.SelectedDates.ToString();
 
-            Response.Write(Date);
+            
+
             try
             {
                 SqlCommand sconn = new SqlCommand("SELECT * FROM reservations", o_sconn);
@@ -43,22 +44,24 @@ namespace meat
 
         private void IsertData()
         {
-            //o_sconn.Open();
-            //string BigName = DL_big.SelectedItem.Value;
+            o_sconn.Open();
+            string BigName = DL_big.SelectedItem.Value;
             // 大人數量
-            //int BigNum = Int32.Parse(BigName);
-            //string SmallName = DL_big.SelectedItem.Value;
+            int BigNum = Int32.Parse(BigName);
+            string SmallName = DL_big.SelectedItem.Value;
             // 小孩數量
-            //int SmallNum = Int32.Parse(SmallName);
-            //string Date = Cdl.SelectedDates.ToString();
+            int SmallNum = Int32.Parse(SmallName);
+            string Date = Cdl.SelectedDates.ToString();
 
-            //SqlCommand scom = new SqlCommand("INSERT INTO reservations (Number, People, Date)" +
+            SqlCommand scom = new SqlCommand("INSERT INTO reservations (Number, People, Date");
             //                                     "VALUES(@Number, @People, @Datetime)", o_sconn);
-            
-            //scom.Parameters.Add("@Number", SqlDbType.Int);
-            //scom.Parameters["@Number"].Value = BigNum;
-            //scom.Parameters.Add("@People", SqlDbType.Int);
-            //scom.Parameters["@People"].Value = SmallNum;
+
+            scom.Parameters.Add("@Number", SqlDbType.Int);
+            scom.Parameters["@Number"].Value = BigNum;
+            scom.Parameters.Add("@People", SqlDbType.Int);
+            scom.Parameters["@People"].Value = SmallNum;
+           
+
             //o_sconn.Close();
         }
 
